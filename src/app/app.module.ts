@@ -15,6 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { HttpClientModule } from '@angular/common/http';
 import { CarService } from './car.service';
 import { AppRoutingModule } from './app-routing.module';
+import { TableVirtualScrollModule } from 'ng-table-virtual-scroll';
 
 @NgModule({
   declarations: [TableComponent, AppComponent],
